@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="479.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exercicio3_db1start.FXMLDocumentController">
+    <children>
+      <Pane prefHeight="127.0" prefWidth="655.0" style="-fx-background-color: #e3e3e3;">
+         <children>
+            <ImageView fitHeight="127.0" fitWidth="131.0" layoutX="39.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/planet-earth-2351750_640.png" />
+               </image>
+            </ImageView>
+              <Label fx:id="label" layoutX="166.0" layoutY="37.0" minHeight="16" minWidth="69" text="Desafio de Geografia">
+               <font>
+                  <Font name="Brushed" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+        <Button fx:id="button" layoutX="474.0" layoutY="177.0" onAction="#handleButtonAction" text="Pesquisar">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <ComboBox fx:id="comboBoxCidades" layoutX="85.0" layoutY="175.0" prefHeight="34.0" prefWidth="367.0" promptText="Selecione a Cidade" />
+      <Label fx:id="labelCidadeSelecionada" layoutX="95.0" layoutY="237.0" prefHeight="30.0" prefWidth="466.0" />
+      <Label fx:id="labelECapital" layoutX="95.0" layoutY="267.0" prefHeight="30.0" prefWidth="466.0" />
+      <Label fx:id="labelEstado" layoutX="95.0" layoutY="297.0" prefHeight="30.0" prefWidth="466.0" />
+    </children>
+</AnchorPane>

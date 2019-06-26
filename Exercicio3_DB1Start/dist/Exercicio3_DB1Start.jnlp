@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Exercicio3_DB1Start.jnlp">
+  <information>
+    <title>Exercicio3_DB1Start</title>
+    <vendor>alima</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Exercicio3_DB1Start.jar" size="63627" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Exercicio3_DB1Start" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="exercicio3_db1start.Exercicio3_DB1Start"  name="Exercicio3_DB1Start" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="424.0" prefWidth="587.0" styleClass="planoDeFundo" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="desafiodamatematica_db1start.FXMLDocumentController">
+    <children>
+      <Pane prefHeight="94.0" prefWidth="587.0" style="-fx-background-color: #778899;">
+         <children>
+              <Label fx:id="label" layoutX="158.0" layoutY="24.0" minHeight="16" minWidth="69" text="Desafio de Matematica" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB" size="38.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+        <Button fx:id="buttonConfirmar" layoutX="447.0" layoutY="123.0" onAction="#handleButtonAction" prefHeight="19.0" prefWidth="93.0" text="Confirmar">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font></Button>
+      <TextField fx:id="textFieldNumero" layoutX="29.0" layoutY="124.0" prefHeight="34.0" prefWidth="403.0" promptText="Insera Um Número">
+         <font>
+            <Font name="Serif Regular" size="16.0" />
+         </font>
+      </TextField>
+      <Label fx:id="respostaEPar" layoutX="40.0" layoutY="208.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaEImpar" layoutX="40.0" layoutY="238.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaEMaiorQueDez" layoutX="40.0" layoutY="268.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaEPrimo" layoutX="40.0" layoutY="298.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaDobro" layoutX="40.0" layoutY="328.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaNumeroDigitado" layoutX="40.0" layoutY="178.0" prefHeight="30.0" prefWidth="403.0">
+         <font>
+            <Font name="Segoe UI Symbol" size="16.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
